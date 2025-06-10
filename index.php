@@ -1,5 +1,5 @@
 <?php
-$accessToken = 'YOUR_LINE_CHANNEL_ACCESS_TOKEN';
+$accessToken = 'bKxIIo/V8GvCLG72EEQMqg36tyj8DfmKP/jHNzTVIF4QbkxvmxAFqKNSZU36Kl+bmUkjRprsYHFqHNYg1i1iVIjKFKqDcl3ucMYiwp4RQEbmtvzGznVdE4LMFM4BJzQerfsjJ1brQk3F1tm0e9KM8gdB04t89/1O/w1cDnyilFU=';
 
 $input = json_decode(file_get_contents('php://input'), true);
 $replyToken = $input['events'][0]['replyToken'];
